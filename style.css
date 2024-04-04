@@ -13,6 +13,11 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    background-color: #651F71;
+    box-shadow: 0 8px  16px 0 rgba(0, 0, 0, 0.2);
+}
+
 .container {
     background-color: #FFEBCD;
     padding: 40px;
@@ -67,13 +72,5 @@ button {
 }
 
 .light-off {
-    width: 50px;
-    height: 50px;
     background-color: #3F3F3F;
-    margin: auto;
-
-    border-color: #000;
-    border-width: medium;
-    border-style: solid;
-    border-radius: 50%;
 }
